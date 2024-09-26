@@ -2,7 +2,7 @@
 
 Hello world! This is beagle_code version 1, developed for pedagogical purposes to introduce students to astrophysical fluid dynamics. It uses the HLL method to solve the Euler equations in 1D and 2D, and is written in Fortran 90. For the 2D case, it is possible to generate a gnuplot file using a Fortran program included in the directory. The initial conditions are provided in the Fortran files.
 
-To compile 1d or 2d version, just do the standard Fortran way gfortran euler**.F90 -o beagle
+To compile 1d or 2d version, just do the standard Fortran way: gfortran euler**.F90 -o beagle
 
 To run: ./beagle
 
