@@ -6,7 +6,7 @@ To compile 1d or 2d version, just do the standard Fortran way: gfortran euler**.
 
 To run: ./beagle
 
-You can modify the code and use the compiler Fortran options as you convenience. 
+You can modify the code and use the compiler Fortran options as your convenience. 
 
 For doubts or questions, feel free to contact Gerardo Urrutia: geursan[at]gmail.com / gurrutia[at]cft.edu.pl
 
