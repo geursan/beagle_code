@@ -1,19 +1,22 @@
 # beagle_code
 
-Hello world, this is beagle_code version 1 for pedagogical objetives, to introduce students to astrophysics fluid dynamics. It uses hll method to solve the Euler equations in 1 and 2d and is written in Fortran 90. 
-For the case 2d is possible to generate a gnuplot file from fortran program included in the dyrectory. 
-The initial conditions are included in the Fortran files. 
+Hello world! This is beagle_code version 1, developed for pedagogical purposes to introduce students to astrophysical fluid dynamics. It uses the HLL method to solve the Euler equations in 1D and 2D, and is written in Fortran 90. For the 2D case, it is possible to generate a gnuplot file using a Fortran program included in the directory. The initial conditions are provided in the Fortran files.
 
-For doubts or questions write to gerardo_urrutia: geursan[at]gmail.com / gurrutia[at]cft.edu.pl
+To compile 1d or 2d version, just do the standard Fortran way gfortran euler**.F90 -o beagle
+To run: ./beagle
+You can modify the code and use the compiler Fortran options as you convenience. 
+
+For doubts or questions, feel free to contact Gerardo Urrutia: geursan[at]gmail.com / gurrutia[at]cft.edu.pl
 
 Recommendations:
 
-CFD methods is detailed by Eleuterio F. Toro - "Riemann Solvers and Numerical Methods for Fluid Dynamics"
+CFD methods:
+For a detailed explanation of CFD methods, refer to Eleuterio F. Toro - "Riemann Solvers and Numerical Methods for Fluid Dynamics."
 
-Astro aplications:
+Astrophysical applications:
+- A classical CFD application in the dynamics of the interstellar medium by Alex Raga and his group can be found in Chapter III of their book Astroplasmas here: https://bigbang.nucleares.unam.mx/astroplasmas/images/stories/pdf/libro-mi.pdf.
 
-- A described application of classical CFD to dynamics of interstellar medium by Alex Raga and his group Astroplasmas, in Chapter III of their book https://bigbang.nucleares.unam.mx/astroplasmas/images/stories/pdf/libro-mi.pdf
+- For special relativistic fluid dynamics, refer to Fabio de Colle's paper here: https://iopscience.iop.org/article/10.1088/0004-637X/746/2/122/meta.
 
-- Special relativistic fluid dynamics by Fabio de Colle https://iopscience.iop.org/article/10.1088/0004-637X/746/2/122/meta
+- For general relativistic cases (e.g., FM torus) including tabulated equations of state, see Agnieszka Janiuk's prescription here:https://github.com/agnieszkajaniuk/HARM_COOL.
 
-- General relativistic cases (FM torus) included tabulated equation of state can be found in the Agnieszka Janiuk prescription https://github.com/agnieszkajaniuk/HARM_COOL
